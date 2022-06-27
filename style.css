@@ -114,6 +114,9 @@ body {
     font-family: 'Montserrat';
     cursor: pointer;
 }
+.btn:active {
+    background-color: var(--Dark-grayish-blue);
+}
 @media (max-width: 650px) {
     .container {
         flex-direction: column;
