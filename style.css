@@ -25,7 +25,7 @@ body {
 .container {
     display: flex;
     width: 600px;
-    height: 425px;
+    height: 450px;
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -51,7 +51,7 @@ body {
     background-color: var(--White);
 }
 .item-2 .content {
-    margin: 1.5rem;
+    margin: 1.75rem;
     position: relative;
 }
 .product-name {
