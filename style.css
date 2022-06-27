@@ -51,7 +51,7 @@ body {
     background-color: var(--White);
 }
 .item-2 .content {
-    margin: 1.75rem;
+    margin: 2rem;
     position: relative;
 }
 .product-name {
@@ -73,7 +73,7 @@ body {
 }
 .detailes {
     margin-top: 1rem;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     font-weight: normal;
     font-size: 13px;
     line-height: 1.5;
@@ -103,7 +103,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 100%;
     height: 3rem;
     border-radius: 0.35rem;
@@ -117,7 +117,7 @@ body {
 .btn:active {
     background-color: var(--Dark-grayish-blue);
 }
-@media (max-width: 650px) {
+@media (max-width: 650px) and (min-width: 350px) {
     .container {
         flex-direction: column;
         height: 625px;
@@ -143,5 +143,11 @@ body {
     }
     .fword {
         display: inline-block;
+    }
+    .content {
+        margin: 0rem;
+    }
+    .btn {
+        margin-top: 1rem;
     }
 }
